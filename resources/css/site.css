@@ -1,8 +1,31 @@
 body{
-    background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
+    background-image: url('../img/jupiter_voyager2.jpg');
+    background-size: 100% ;
 }
 .backgroundImage{
-    width: 100%;
+    width: 200px;
     overflow: hidden;
+    /*filter: blur(5px);*/
+}
+
+article{
+    border: 1px solid white;
+}
+
+.socialMediaLink{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+
+}
+.socialMediaLink img{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.socialMediaLink p{
+    display: inline-block;
+    vertical-align: middle;
 }
