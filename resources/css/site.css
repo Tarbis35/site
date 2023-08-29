@@ -29,8 +29,14 @@ article{
     display: inline-block;
     vertical-align: middle;
 }
-.messageBottle {
+a.messageBottle {
     margin: 0 auto;
     display: block;
     width: 50%;
+}
+.messageBottle div{
+    width: 100%;
+}
+.messageBottle img{
+    width: 100%;
 }
