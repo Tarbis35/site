@@ -29,3 +29,8 @@ article{
     display: inline-block;
     vertical-align: middle;
 }
+.messageBottle {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+}
